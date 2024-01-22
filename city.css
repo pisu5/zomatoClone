@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  overflow: auto;
+  /* Prevent scrollbars from appearing */
+}
+html {
+  scroll-behavior: smooth;
+}
+.div {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  margin-left: 15%;
+}
+.hearderele {
+  display: flex;
+
+  flex-direction: row;
+  padding: 12px;
+}
+
+.hearderele img {
+  /* Set max-width for responsive design */
+  padding: 10px;
+  max-width: 12%;
+  height: auto;
+}
+.searchBox {
+  width: 50%;
+  padding: 10px;
+
+
+  background-color: #ffffff;
+  
+
+  border: 1px solid rgb(232, 232, 232);
+  border-radius: 10px;
+  box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
+
+  
+}
+.auth{
+    
+    padding: 5px;
+    background: transparent;
+    background-color: transparent;
+    
+}
+
